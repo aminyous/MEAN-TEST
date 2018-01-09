@@ -6,7 +6,7 @@ const app = express();
 
 // API file for interacting with MongoDB
 const api = require('./server/routes/api');
-
+// this is a comment
 // Parsers
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false}));
